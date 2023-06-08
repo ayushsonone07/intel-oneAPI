@@ -23,19 +23,14 @@ python numpy
 ##intel oneDNN toolkit
    
 ## Step-by-Step Code Execution Instructions:
-1. Training Dataset imported.
-2. All the dependencies installed using ##pip
-3. imported packages
-4. imported model and config
-5. setup input size and scale factor
-6. opening video file
-7. loading class labels
-8. preprocess frame
-9. setting up blob
-10. running forword pass
-11. processing of detection
-12. Display the frame
-13. Release the video capture and close all windows.
+1. pip install openCV
+2. pip install numpy
+3. cd oneDNN
+4. mkdir build && cd build
+5. !cmake /content/oneDNN
+6. !make -j$(nproc)
+7. pip install onednn-cpu-gomp
+8. pip install onednn-cpu-tbb
 
 ## What I Learned:
    Learnt about AI ML and technologies used here which is most beneficial now, and also learned how to improve previous versions. 
